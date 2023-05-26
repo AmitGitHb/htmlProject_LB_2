@@ -1,0 +1,54 @@
+body{
+    background-color:antiquewhite;
+}
+
+#pre-font{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+#heading{
+    font-style: italic;
+    color:rgb(227, 33, 33);
+    text-decoration:underline;
+    text-align: center;
+}
+
+.table{
+    border-spacing: 2px;
+}
+
+h2 :hover{
+    color: red;
+}
+
+
+.Frontend:hover{
+    color: red;
+}
+
+.Backend:hover{
+    color: red;
+}
+
+.dbms:hover{
+    color:red;
+}
+
+.html-link:hover{
+    color: green;
+}
+
+.css-link:hover{
+    color: green;
+}
+
+.js-link:hover{
+    color:green;
+}
+
+.nodejs-link:hover{
+    color: green;
+}
