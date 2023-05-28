@@ -1,19 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+
 body{
-    background-color:antiquewhite;
+    background-color:rgb(216, 246, 242);
+    
 }
+
+.bgImage{
+    background-image: url(image/webImage.jpeg); 
+}
+
+h2{
+    color: aqua;
+}
+
+.paraFont{
+    color: gold;
+}
+
+.BackEndparacolor{
+    color: gold;
+}
+
+
 
 #pre-font{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     font-weight: bold;
-    
+    color: greenyellow; 
 }
+
+.html-dd-Front-end-font{
+    color: greenyellow; 
+}
+
+
 
 #heading{
     font-style: italic;
-    color:rgb(227, 33, 33);
+    color:rgb(250, 4, 4);
     text-decoration:underline;
     text-align: center;
+    
 }
 
 .table{
@@ -24,15 +54,29 @@ h2 :hover{
     color: red;
 }
 
+.Frontend{
+    color: yellow;
+}
 
 .Frontend:hover{
     color: red;
+}
+
+.Backend{
+    color: yellow;
 }
 
 .Backend:hover{
     color: red;
 }
 
+.Django{
+    color: gold;
+}
+
+.dbms{
+    color: yellow;
+}
 .dbms:hover{
     color:red;
 }
@@ -41,14 +85,37 @@ h2 :hover{
     color: green;
 }
 
+.html-link{
+    color: greenyellow;
+}
+
 .css-link:hover{
     color: green;
+}
+
+.css-link{
+    color: greenyellow;
 }
 
 .js-link:hover{
     color:green;
 }
 
+.js-link{
+    color: greenyellow;
+}
+
 .nodejs-link:hover{
     color: green;
+}
+
+.nodejs-link{
+    color: black;
+}
+
+.textarea-color{
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
